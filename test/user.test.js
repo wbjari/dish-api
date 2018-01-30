@@ -35,7 +35,7 @@ describe('Users', () => {
         helpers.setAuth(
           chai.request(server)
             .get('/api/users/' + user[0]._id),
-          user.id,
+          user._id,
           false
         ).end((err) => {
           if (err === undefined) {

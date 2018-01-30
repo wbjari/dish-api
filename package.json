@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "test": "mocha --timeout 10000"
   },
-  "repository": "git@github.com:wbjaro/dish-api.git",
+  "repository": "git@github.com:wbjari/dish-api.git",
   "author": "Dish Api",
   "dependencies": {
     "bcrypt": "^1.0.3",
