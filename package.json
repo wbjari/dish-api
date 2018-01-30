@@ -1,14 +1,15 @@
 {
-  "name": "caps-api",
+  "name": "dish-api",
   "version": "1.0.0",
-  "description": "API for CapsClothing",
+  "description": "API for meals at studenthome",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "mocha --timeout 10000"
   },
-  "repository": "git@github.com:devments/caps-api.git",
-  "author": "Caps Clothing United",
+  "repository": "git@github.com:wbjaro/dish-api.git",
+  "author": "Dish Api",
   "dependencies": {
     "bcrypt": "^1.0.3",
     "body-parser": "^1.17.2",
@@ -36,7 +37,10 @@
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
     "eslint-config-airbnb": "^16.1.0",
+    "mocha": "^2.5.3",
     "nodemon": "^1.13.3"
   }
 }
